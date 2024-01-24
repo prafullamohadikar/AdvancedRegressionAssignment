@@ -29,24 +29,24 @@ Also, determine the optimal value of lambda for ridge and lasso regression.
 - Conclusion 1
     - Ridge Regression
         - Optimal value of alpha for Ridge Regression = 10
-            R-Squared (Train) = 0.94
-            R-Squared (Test) = 0.91
-            RSS (Train) = 8.29
-            RSS (Test) = 3.19
-            MSE (Train) = 0.01
-            MSE (Test) = 0.01
-            RMSE (Train) = 0.08
-            RMSE (Test) = 0.10
+            - R-Squared (Train) = 0.94
+            - R-Squared (Test) = 0.91
+            - RSS (Train) = 8.29
+            - RSS (Test) = 3.19
+            - MSE (Train) = 0.01
+            - MSE (Test) = 0.01
+            - RMSE (Train) = 0.08
+            - RMSE (Test) = 0.10
     - Lasso Ridge
         - Optimal value of alpha for Lasso Regression = 0.001
-            R-Squared (Train) = 0.92
-            R-Squared (Test) = 0.91
-            RSS (Train) = 10.94
-            RSS (Test) = 3.31
-            MSE (Train) = 0.01
-            MSE (Test) = 0.01
-            RMSE (Train) = 0.10
-            RMSE (Test) = 0.11
+            - R-Squared (Train) = 0.92
+            - R-Squared (Test) = 0.91
+            - RSS (Train) = 10.94
+            - RSS (Test) = 3.31
+            - MSE (Train) = 0.01
+            - MSE (Test) = 0.01
+            - RMSE (Train) = 0.10
+            - RMSE (Test) = 0.11
 
 - Conclusion 2
     - The below vairables are significant in predicting the price of a house:
@@ -61,36 +61,38 @@ Also, determine the optimal value of lambda for ridge and lasso regression.
 - Conclusion 3
     Double the alpha for Ridge(20) and Lasso(0.002)
     - Ridge:
-        R-Squared (Train) = 0.94
-        R-Squared (Test) = 0.91
-        RSS (Train) = 9.12
-        RSS (Test) = 3.19
-        MSE (Train) = 0.01
-        MSE (Test) = 0.01
-        RMSE (Train) = 0.09
-        RMSE (Test) = 0.10
+        - R-Squared (Train) = 0.94
+        - R-Squared (Test) = 0.91
+        - RSS (Train) = 9.12
+        - RSS (Test) = 3.19
+        - MSE (Train) = 0.01
+        - MSE (Test) = 0.01
+        - RMSE (Train) = 0.09
+        - RMSE (Test) = 0.10
     - Lasso:
-        R-Squared (Train) = 0.91
-        R-Squared (Test) = 0.89
-        RSS (Train) = 13.18
-        RSS (Test) = 3.91
-        MSE (Train) = 0.01
-        MSE (Test) = 0.01
-        RMSE (Train) = 0.11
-        RMSE (Test) = 0.12
+        - R-Squared (Train) = 0.91
+        - R-Squared (Test) = 0.89
+        - RSS (Train) = 13.18
+        - RSS (Test) = 3.91
+        - MSE (Train) = 0.01
+        - MSE (Test) = 0.01
+        - RMSE (Train) = 0.11
+        - RMSE (Test) = 0.12
 
     - Changes in Ridge Regression metrics:
-        R2 score of train set remained same at 0.94
-        R2 score of test set remained same at 0.94
+        - R2 score of train set remained same at 0.94
+        - R2 score of test set remained same at 0.94
     - Changes in Lasso Regression metrics:
-        R2 score of train set decreased from 0.92 to 0.91
-        R2 score of test set decreased from 0.91 to 0.89
+        - R2 score of train set decreased from 0.92 to 0.91
+        - R2 score of test set decreased from 0.91 to 0.89
     
-    Top predictor Variables:
+    - Top predictor Variables:
+
         GrLivArea, OverallQual_8, OverallQual_9, Neighborhood_Crawfor, Functional_Typ, TotalBsmtSF, Exterior1st_BrkFace, YearBuilt
 
 - Conclusion 4
     - Top 5 predictors after dropping top 5 variables:
+    
         2ndFlrSF, 1stFlrSF, TotalBsmtSF, Exterior1st_BrkFace, Neighborhood_Somerst
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
